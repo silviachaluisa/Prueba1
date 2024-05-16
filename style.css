@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #00416A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFE000, #799F0C, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFE000, #799F0C, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    animation: animacion 5s ease infinite;
+    text-align: center;
+
+}
+
+@keyframes animacion{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+
+h1 {
+
+    color: #F0F2F0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 18px;
+}
+
+.image-container {
+    display: flex;
+   
+}
+
+.image-container img {
+    width: 80%;
+  
+}
+
+
+article {
+    padding: 10px;
+    box-shadow: 0px 0px 1px #000;
+}
+
+button {
+    background-color: #08c10e; /* Color de fondo del botón (verde) */
+    color: white; /* Color del texto del botón (blanco) */
+    padding: 15px 20px; /* Espaciado interno del botón */
+    font-size: 20px; /* Tamaño de fuente del texto del botón */
+    border: none; /* Quita el borde del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+    
+  }
+  
+button:hover{
+    background-color: #087619; /* Cambia el color de fondo del botón al pasar sobre él */
+    color: white;
+    
+  }
+  
